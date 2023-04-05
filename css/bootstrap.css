@@ -812,14 +812,8 @@ pre code {
   margin-left: -15px;
 }
 
-.row:before,
-.row:after {
-  display: table;
-  content: " ";
-}
-
-.row:after {
-  clear: both;
+.chip-row {
+  margin-right: -15px;
 }
 
 .row:before,
@@ -830,6 +824,25 @@ pre code {
 
 .row:after {
   clear: both;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.chip {
+  display: inline-block;
+  padding: 0 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  background-color: #f1f1f1;
 }
 
 .col-xs-1,
