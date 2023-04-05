@@ -849,7 +849,7 @@ pre code {
 
 .custom-img {
   display: block;
-  width: 300px;
+  width: 200px;
   max-width: 100%;
   height: auto;
 }
@@ -5994,6 +5994,69 @@ button.close {
   background: transparent;
   border: 0;
   -webkit-appearance: none;
+}
+
+/* linkedin button class*/
+.linkedinBtn{
+  background: #0094BC;
+}
+
+.linkedinBtn:before{
+  font-family: "FontAwesome";
+  content: "\f0e1"; /* add linkedin icon */
+}
+
+.linkedinBtn:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.linkedinBtn:focus{
+  color: #fff;
+  background: #0094BC;
+  text-decoration: none;
+}
+
+/* github button class*/
+.githubBtn{
+  background: #304880;
+}
+
+.githubBtn:before{
+  font-family: "FontAwesome";
+  content: "\f09b"; /* add github icon */
+}
+
+.githubBtn:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.githubBtn:focus{
+  color: #fff;
+  background: #304880;
+  text-decoration: none;
+}
+
+.smGlobalBtn{ /* global button class */
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 0px 2px 1px #999;
+  padding: 0px;
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  font-weight: normal;
+  line-height: 2em;
+  border-radius: 25px;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  margin-top: 10px;
+  margin-right: 5px;
 }
 
 .modal-open {
