@@ -817,6 +817,25 @@ pre code {
   margin-right: -15px;
 }
 
+.fancy-button {
+  background-color: #428bca;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.fancy-button:hover {
+  background-color: #428bca;
+  color: white;
+}
+
+.fancy-button:visited {
+  color: white; 
+}
+
 .row:before,
 .row:after {
   display: table;
